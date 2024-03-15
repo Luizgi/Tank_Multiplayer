@@ -760,5 +760,5 @@ MonoBehaviour:
   muzzleFlash: {fileID: 7571817851878619119}
   playerCollider: {fileID: 108937325986842094}
   projectileSpeed: 15
-  fireRate: 0.01
-  muzzleFlashDuration: 0.01
+  fireRate: 1
+  muzzleFlashDuration: 0.3
