@@ -7,6 +7,16 @@ public class PlayerAiming : NetworkBehaviour
 {
     [SerializeField] private Transform turrentTransform;
     [SerializeField] private InputReader inputReader;
+    public Texture2D aim;
+    private Vector2 cursorHotspot;
+
+    public void Start()
+    {
+        cursorHotspot = new Vector2 (75.5f , 75.5f);
+
+        Cursor.SetCursor(aim, cursorHotspot, CursorMode.Auto);
+    }
+
 
     private void LateUpdate()
     {
