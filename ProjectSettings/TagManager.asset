@@ -8,7 +8,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Obstacles
   - Water
   - UI
   - Player
@@ -46,6 +46,9 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 589049527
+    locked: 0
+  - name: Obstacles
+    uniqueID: 1518450379
     locked: 0
   - name: Coin
     uniqueID: 2041677211
